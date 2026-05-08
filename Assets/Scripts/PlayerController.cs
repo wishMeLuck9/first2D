@@ -42,7 +42,6 @@ public class PlayerController : MonoBehaviour
 
         Debug.Log(horizontal);
 
-
         Vector2 position = transform.position;
         position.x = position.x + 0.1f * horizontal;
         position.y = position.y + 0.1f * vertical;
