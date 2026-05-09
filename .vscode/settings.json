@@ -56,5 +56,26 @@
         "temp/": true,
         "Temp/": true
     },
-    "dotnet.defaultSolution": "first2D.sln"
+    "dotnet.defaultSolution": "first2D.sln",
+    "files.watcherExclude": {
+        "**/Library/**": true,
+        "**/library/**": true,
+        "**/Temp/**": true,
+        "**/temp/**": true,
+        "**/Logs/**": true,
+        "**/logs/**": true,
+        "**/Build/**": true,
+        "**/build/**": true,
+        "**/obj/**": true,
+        "**/Obj/**": true,
+        "**/.git/objects/**": true,
+        "**/.git/subtree-cache/**": true
+    },
+    "search.exclude": {
+        "**/Library": true,
+        "**/Temp": true,
+        "**/Logs": true,
+        "**/Build": true,
+        "**/obj": true
+    }
 }
